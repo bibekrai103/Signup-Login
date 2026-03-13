@@ -12,8 +12,9 @@ The project is intended for learning and experimentation with authentication wor
 ## Tech Stack
 
 Frontend
+
 * React
-* Tailwind Css
+* Tailwind CSS
 * JavaScript
 
 Backend
@@ -46,14 +47,15 @@ Security
 ```
 project-root
 │
+├── backend
+│   ├── server.js
+│   └── package.json
+│
 ├── frontend
 │   ├── signup.html
 │   └── login.html
 │
-├── backend
-│   ├── server.js
-│
-├── package.json
+├── .gitignore
 └── README.md
 ```
 
@@ -71,17 +73,19 @@ Install dependencies
 
 ```
 npm install
-
 ```
 
-Start the server
+Start the development server
+
+```
+npm run dev
+```
+
+Alternatively, you can start the server directly with
 
 ```
 node server.js
-npm run dev    
-
 ```
-First Start the server in seprate terminal. And run the project on next terminal.
 
 ---
 
