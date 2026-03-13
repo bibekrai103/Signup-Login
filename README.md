@@ -77,11 +77,11 @@ npm install
 Start the server
 
 ```
-node server.js // starts server
-npm run dev    // run app
+node server.js
+npm run dev    
 
-First Start the server in seprate terminal. And run the project on next terminal.
 ```
+First Start the server in seprate terminal. And run the project on next terminal.
 
 ---
 
